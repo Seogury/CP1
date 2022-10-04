@@ -10,10 +10,16 @@
 3. okt 활용 형태소 분석
 4. word2vec 사용 vector화
 5. 테마 별 코사인 유사도 0.8 이하 단어 0 처리
+  ![image](https://user-images.githubusercontent.com/97610185/193880094-6d8ad527-5061-443f-9b9d-03e06ae427b1.png)
 6. counter vecterizer를 활용 DTM 생성
 7. (테마 * 단어) @ DTM 
 8. 감성분석리스트 활용 감성분석 실시
+  ![image](https://user-images.githubusercontent.com/97610185/193880414-5ceb0494-26ec-421e-a910-4ca92eab136b.png)
 9. 명소 별 score = (1.2 * 연관도 * 감성점수) + (0.1 * 평점) + (0.0005 * 리뷰 수)
+
+## 결과
+  ![image](https://user-images.githubusercontent.com/97610185/193880626-f77b5392-17c4-4be1-86bb-548aeb35ddf2.png)    
+'독특한' 테마를 선택 시 나오는 top5 명소
 
 ## 프로젝트 진행과정
   **6/24(금):** 7팀 첫 미팅 관심 분야 및 주제 선정 조사, 간단한 일상 소통
@@ -32,4 +38,11 @@
 
   **7/7(목) :** 프로젝트 피드백
   
-##  
+## 데이터셋 설명
+  ![image](https://user-images.githubusercontent.com/97610185/193881431-1e27acab-f03b-4d6e-97ca-42a8cd801682.png)  
+  colunms = name,	rating,	title, review (4)
+  row = 11494
+  data = (11494,4)
+
+## 한계점 및 해결방안
+  
