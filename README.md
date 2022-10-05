@@ -13,11 +13,14 @@
   ![image](https://user-images.githubusercontent.com/97610185/193880094-6d8ad527-5061-443f-9b9d-03e06ae427b1.png)
 6. counter vecterizer를 활용 DTM 생성
 7. (테마 * 단어) @ DTM 
+  
 8. 감성분석리스트 활용 감성분석 실시
   ![image](https://user-images.githubusercontent.com/97610185/193880414-5ceb0494-26ec-421e-a910-4ca92eab136b.png)
-9. 명소 별 score = (1.2 * 연관도 * 감성점수) + (0.1 * 평점) + (0.0005 * 리뷰 수)
+9. ![image](https://user-images.githubusercontent.com/97610185/193993957-e48827d6-3662-4bbe-ba9c-13a4b9eeb25d.png)
+
 
 ## 결과
+- 명소 별 score = (1.2 * 연관도 * 감성점수) + (0.1 * 평점) + (0.0005 * 리뷰 수)
   ![image](https://user-images.githubusercontent.com/97610185/193880626-f77b5392-17c4-4be1-86bb-548aeb35ddf2.png)    
 '독특한' 테마를 선택 시 나오는 top5 명소
 
