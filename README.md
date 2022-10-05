@@ -3,7 +3,13 @@
 카테고리 별 제주도 여행지 추천 구현
 ### 가설
 여행지 추천을 통해 사용자는 좀 더 다양하고 새로운 테마 여행 명소를 쉽게 찾을 수 있다. 즉 사용자의 편의성을 증대시킴으로써 기업의 매출 상승을 기대할 수 있다.
-  
+
+## 데이터셋 설명
+  ![image](https://user-images.githubusercontent.com/97610185/193881431-1e27acab-f03b-4d6e-97ca-42a8cd801682.png)  
+  colunms = name,	rating,	title, review (4)
+  row = 11494
+  data = (11494,4)
+
 ## 해결과정
 1. 데이터셋 구현을 위해 tripadviser리뷰 크롤링
 2. 데이터셋 전처리
@@ -41,11 +47,6 @@
 
   **7/7(목) :** 프로젝트 피드백
   
-## 데이터셋 설명
-  ![image](https://user-images.githubusercontent.com/97610185/193881431-1e27acab-f03b-4d6e-97ca-42a8cd801682.png)  
-  colunms = name,	rating,	title, review (4)
-  row = 11494
-  data = (11494,4)
 
 ## 한계점 및 해결방안
 ### 한계점
