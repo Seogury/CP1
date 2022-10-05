@@ -49,6 +49,6 @@
   웹구현까지의 파이프라인이 제대로 구현되지 않았다.
 ### 해결방안
   1. csv 파일이 아닌 db 적재 후 불러오기를 통해 지속적인 업데이트를 하게 된다면 좋은 서비스가 될 수 있다고 생각된다.
-  2. ![image](https://user-images.githubusercontent.com/97610185/193965314-5a42b333-fe50-4bc5-a44b-a9c5a4f28962.png)
+  2. ![image](https://user-images.githubusercontent.com/97610185/193965314-5a42b333-fe50-4bc5-a44b-a9c5a4f28962.png)  
   현재는 이런 방식으로 진행하기 때문에 한 번 밖에 사용하지 못하는 파이프라인이다. 지속적으로 사용 가능하게 하기 위해서는  
   크롤링 > db적재 > 전처리 > NLP > db적재 > flask 이렇게 되어야한다.
