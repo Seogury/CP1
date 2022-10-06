@@ -6,12 +6,14 @@
 
 ## 데이터셋 설명
   ![image](https://user-images.githubusercontent.com/97610185/193881431-1e27acab-f03b-4d6e-97ca-42a8cd801682.png)  
-  colunms = name,	rating,	title, review (4)
-  row = 11494
-  data = (11494,4)
+  colunms = name,	rating,	title, review (4)  
+  row = 11494  
+  data = (11494,4)   
+  출처 : https://www.tripadvisor.co.kr/
+
 
 ## 해결과정
-1. 데이터셋 구현을 위해 tripadviser리뷰 크롤링
+1. 데이터셋 구현을 위해 tripadviser 리뷰 크롤링
 2. 데이터셋 전처리
 3. okt 활용 형태소 분석
 4. word2vec 사용 vector화
@@ -22,7 +24,8 @@
   
 8. 감성분석리스트 활용 감성분석 실시
   ![image](https://user-images.githubusercontent.com/97610185/193880414-5ceb0494-26ec-421e-a910-4ca92eab136b.png)
-9. ![image](https://user-images.githubusercontent.com/97610185/193993957-e48827d6-3662-4bbe-ba9c-13a4b9eeb25d.png)
+9. 종합  
+  ![image](https://user-images.githubusercontent.com/97610185/193993957-e48827d6-3662-4bbe-ba9c-13a4b9eeb25d.png)
 
 
 ## 결과
@@ -31,6 +34,8 @@
 '독특한' 테마를 선택 시 나오는 top5 명소
 
 ## 프로젝트 진행과정
+  **역할:** 추천 모델링, 감성분석, 크롤링, 전처리, 웹구현 (기본) 
+  
   **6/24(금):** 7팀 첫 미팅 관심 분야 및 주제 선정 조사, 간단한 일상 소통
 
   **6/25(토)~6/27(월):** 프로젝트 주제 선정 및 방향성, 데이터 선정, 직무 공유
