@@ -21,7 +21,6 @@
   ![image](https://user-images.githubusercontent.com/97610185/193880094-6d8ad527-5061-443f-9b9d-03e06ae427b1.png)
 6. counter vecterizer를 활용 DTM 생성
 7. (테마 * 단어) @ DTM 
-  
 8. 감성분석리스트 활용 감성분석 실시
   ![image](https://user-images.githubusercontent.com/97610185/193880414-5ceb0494-26ec-421e-a910-4ca92eab136b.png)
 9. 종합  
@@ -29,9 +28,10 @@
 
 
 ## 결과
-- 명소 별 score = (1.2 * 연관도 * 감성점수) + (0.1 * 평점) + (0.0005 * 리뷰 수)
+- 명소 score = (1.2 * 연관도 * 감성점수) + (0.1 * 평점) + (0.0005 * 리뷰 수)  
+- '독특한' 테마를 선택 시 나오는 top5 명소
   ![image](https://user-images.githubusercontent.com/97610185/193880626-f77b5392-17c4-4be1-86bb-548aeb35ddf2.png)    
-'독특한' 테마를 선택 시 나오는 top5 명소
+
 
 ## 프로젝트 진행과정
   **역할:** 추천 모델링, 감성분석, 크롤링, 전처리, 웹구현 (기본) 
@@ -58,6 +58,6 @@
   1. 웹구현까지의 파이프라인이 제대로 구현되지 않았다.
   2. 점수 체계의 구체화
 ### 해결방안
-  1. ![image](https://user-images.githubusercontent.com/97610185/193965314-5a42b333-fe50-4bc5-a44b-a9c5a4f28962.png)  
-  현재는 이런 방식으로 진행하기 때문에 한 번 밖에 사용하지 못하는 파이프라인이다. 지속적으로 사용 가능하게 하기 위해서는  
+  ![image](https://user-images.githubusercontent.com/97610185/193965314-5a42b333-fe50-4bc5-a44b-a9c5a4f28962.png)  
+  - 현재는 이런 방식으로 진행하기 때문에 한 번 밖에 사용하지 못하는 파이프라인이다. 지속적으로 사용 가능하게 하기 위해서는  
   크롤링 > db적재 > 전처리 > NLP > db적재 > flask 이렇게 되어야한다.
